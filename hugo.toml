@@ -1,0 +1,7 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-gb'
+title = 'SPUD'
+theme = 'PaperMod'
+
+[params]
+  dateFormat = '2 January 2006'
