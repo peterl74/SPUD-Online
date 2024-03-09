@@ -1,0 +1,11 @@
+<!-- layouts/contact.html -->
+{{ define "main" }}
+    <section>
+        <h2>{{ .Title }}</h2>
+        <p>Contact Name: {{ .Params.contact_name }}</p>
+        <p>Organization: {{ .Params.contact_organisation }}</p>
+        <p>Telephone: {{ .Params.contact_telephone }}</p>
+        <p>Email: {{ .Params.contact_email }}</p>
+        <!-- Add additional contact details as needed -->
+    </section>
+{{ end }}

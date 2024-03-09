@@ -1,0 +1,15 @@
+<!-- layouts/search-results.html -->
+{{ define "main" }}
+    <section>
+        <h2>Search Results</h2>
+        <ul>
+            {{ range .Site.RegularPages }}
+                {{ if eq .Type "contact" }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ else if eq .Type "resource" }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </section>
+{{ end }}

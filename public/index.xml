@@ -2,10 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SPUD</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:55922/</link>
     <description>Recent content on SPUD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 00:22:12 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55922/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burton Bradstock Volunteer group liason (Clerk/co-ordinator)</title>
+      <link>http://localhost:55922/contact/</link>
+      <pubDate>Sat, 06 Jan 2024 00:22:12 +0000</pubDate>
+      <guid>http://localhost:55922/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BP@Home (previously Hypertension Plus)</title>
+      <link>http://localhost:55922/resource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55922/resource/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

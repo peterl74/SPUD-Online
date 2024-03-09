@@ -1,0 +1,10 @@
+<!-- layouts/resource.html -->
+{{ define "main" }}
+    <section>
+        <h2>{{ .Title }}</h2>
+        <p>Resource Type: {{ .Params.Resource_Type }}</p>
+        <p>Locations: {{ .Params.Locations }}</p>
+        <p>Clinical Services: {{ .Params.Clinical_Services }}</p>
+        <!-- Add additional resource details as needed -->
+    </section>
+{{ end }}
