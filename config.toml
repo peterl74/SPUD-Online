@@ -1,4 +1,5 @@
-baseURL = 'http://localhost:1313/'
+# baseURL = 'http://localhost:1313/'
+baseURL = 'https://spud-online.netlify.app/'
 languageCode = 'en-gb'
 title = 'SPUD'
 theme = 'PaperMod'
